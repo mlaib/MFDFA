@@ -7,6 +7,8 @@ Author: Mohamed Laib, Luciano Telesca and Mikhail Kanevski
 
 Maintainer: Mohamed Laib <Mohamed.Laib@unil.ch>
 
+URL: https://sites.google.com/site/mohamedlaibwebpage/
+
 License: GPL-3
 
 Note: This R code was developed and used for the following paper:
