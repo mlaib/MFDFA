@@ -23,3 +23,36 @@ devtools::install_github("mlaib/MFDFA")
 
 library(MFDFA)
 
+## Example #####
+
+a<-0.9
+
+N<-1024
+
+tsx<-MFsim(N,a)
+
+scale=10:100
+
+q<--10:10
+
+m<-1
+
+mfdfa<-MFDFA(tsx, scale, m, q)
+
+
+## Results plot ####
+
+dev.new()
+
+par(mai=rep(1, 4))
+
+plot(q, mfdfa$Hq, col=1, axes= F, ylab=expression('h'[q]), pch=16, cex.lab=1.8,
+     cex.axis=1.8, main="Hurst exponent",
+     ylim=c(min(mfdfa$Hq),max(mfdfa$Hq)))
+     
+grid(col="midnightblue")
+
+axis(1)
+
+axis(2)
+
