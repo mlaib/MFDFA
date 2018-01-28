@@ -1,0 +1,27 @@
+{
+  "title": "MFDFA: MultiFractal Detrended Fluctuation Analysis",
+  "publication_date": "2017-08-01",
+  "version": "",
+  "creators": [
+    {
+      "affiliation": "Faculty of Geoscience and Environment, University of Lausanne, Lausanne, Switzerland",
+      "name": "Laib, Mohamed",
+      "orcid": "0000-0003-1276-1790 "
+    },
+    {
+      "affiliation": "Institute of Methodologies for Environmental Analysis, National Research Council, Italy",
+      "name": "Telesca, Luciano",
+    },
+    {
+      "affiliation": "Faculty of Geoscience and Environment, University of Lausanne, Lausanne, Switzerland",
+      "name": "Kanevski, Mikhail",
+      "orcid": "0000-0001-6602-6551"
+    }
+  ],
+  "keywords": [
+    "Time series",
+    "Multifractal"
+  ],
+  "license": "GPL-3.0",
+  "upload_type": "software"
+}
