@@ -23,5 +23,5 @@
     "Multifractal"
   ],
   "license": "GPL-3.0",
-  "upload_type": "software"
+  "upload_type": "R_package"
 }
