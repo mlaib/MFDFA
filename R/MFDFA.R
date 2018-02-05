@@ -5,7 +5,8 @@
 #' @param tsx  Univariate time series (must be a vector or a ts object).
 #' @param scale Vector of scales.
 #' @param m Polynomial order for the detrending (by defaults m=1).
-#' @param q q-order of the moment.
+#' @param q q-order of the moment. There is no default value
+#' for this parameter, please add values.
 #'
 #' @return A list of the following elements:
 #'  \itemize{
@@ -22,9 +23,14 @@
 #'
 #' @details
 #'
-#' This R code was developed and used for the following paper:
-#' Long-range fluctuations and multifractality in connectivity density
-#' time series of a wind speed monitoring network, submitted.
+#' This R code was developed and used for the following papers:
+#' M. Laib, L. Telesca, M. Kanevski, Long-range fluctuations and
+#' multifractality in connectivity density time series of a wind
+#' speed monitoring network, submitted.
+#'
+#' M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal
+#' analysis of the time series of daily means of wind speed
+#' in complex regions, submitted.
 #'
 #' @examples
 #'
@@ -57,6 +63,7 @@
 #'
 #' ##################################
 #' ## Suggestion of output plot: ####
+#' ##################################
 #'
 #' ##################################
 #' ## Supplementary functions: #####
@@ -72,8 +79,8 @@
 #'   return(allres)}
 #' ##################################
 #'
-#' #####################
-#' ## Output plots: ####
+#' ##################################
+#' ## Output plots: #################
 #' dev.new()
 #' layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE),heights=c(4, 4))
 #' ## b : mfdfa output
@@ -156,6 +163,10 @@
 #' M. Laib, L. Telesca and M. Kanevski, Long-range fluctuations and
 #' multifractality in connectivity density time series of a wind speed
 #' monitoring network, submitted.
+#'
+#' M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal
+#' analysis of the time series of daily means of wind speed
+#' in complex regions, submitted.
 #'
 #' @export
 
