@@ -2,6 +2,7 @@ Package: MFDFA
 Type: Package
 Title: MultiFractal Detrended Fluctuation Analysis for time series
 Version: 1.0
+Date: 2017-08-31
 Author: Mohamed Laib, Luciano Telesca and Mikhail Kanevski
 Maintainer: Mohamed Laib <Mohamed.Laib@unil.ch>
 Description: Applies the MultiFractal Detrended Fluctuation Analysis (MFDFA) 
