@@ -1,7 +1,7 @@
-# MFDFA
-Application of the MultiFractal Detrended Fluctuation Analysis (MFDFA) on Time Series
+# MFDFA : MultiFractal Detrended Fluctuation Analysis for Time Series
+Applies the MultiFractal Detrended Fluctuation Analysis (MFDFA) on time series. The package contains some suggestion plot of the MFDFA results.
 
-Version: 0.1.0
+Version: 1.0
 
 Author: Mohamed Laib, Luciano Telesca and Mikhail Kanevski
 
@@ -11,9 +11,10 @@ URL: https://sites.google.com/site/mohamedlaibwebpage/
 
 License: GPL-3
 
-Note: This R code was developed and used for the following paper:
-   Long-range fluctuations and multifractality in connectivity density
-   time series of a wind speed monitoring network, submitted.
+Note: This R code was developed and used for the following papers:
+   Long-range fluctuations and multifractality in connectivity density time series of a wind speed monitoring network, submitted.
+   
+   M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal analysis of the time series of daily means of wind speed in complex regions, Chaos, Solitons & Fractals, 109 (2018) pp. 118-127.
 
 ## MFDFA package installation: from github ####
 
