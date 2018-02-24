@@ -30,7 +30,8 @@
 #'
 #' M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal
 #' analysis of the time series of daily means of wind speed
-#' in complex regions, submitted.
+#' in complex regions, Chaos, Solitons & Fractals, 109 (2018) 
+#' pp. 118-127.
 #'
 #' @examples
 #'
@@ -166,7 +167,8 @@
 #'
 #' M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal
 #' analysis of the time series of daily means of wind speed
-#' in complex regions, submitted.
+#' in complex regions, Chaos, Solitons & Fractals, 109 (2018) 
+#' pp. 118-127.
 #'
 #' @export
 
