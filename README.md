@@ -18,15 +18,16 @@ Note: This R code was developed and used for the following papers:
    M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal analysis of the time series of daily means of wind speed in complex regions, Chaos, Solitons & Fractals, 109 (2018) pp. 118-127.
 
 ## MFDFA package installation: from github ####
-
+```{r}
 install.packages("devtools")
 
 devtools::install_github("mlaib/MFDFA")
 
 library(MFDFA)
+```
 
 ## Example #####
-
+```{r}
 a<-0.9
 
 N<-1024
@@ -40,10 +41,10 @@ q<--10:10
 m<-1
 
 mfdfa<-MFDFA(tsx, scale, m, q)
-
+```
 
 ## Results plot ####
-
+```{r}
 dev.new()
 
 par(mai=rep(1, 4))
@@ -57,4 +58,4 @@ grid(col="midnightblue")
 axis(1)
 
 axis(2)
-
+```
