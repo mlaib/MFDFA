@@ -19,7 +19,7 @@ GPL-3
 #### Note
 This R code was developed and used for the following papers:
   
- * Long-range fluctuations and multifractality in connectivity density time series of a wind speed monitoring network, Chaos: An Interdisciplinary Journal of Nonlinear Science 28 (3), 033108.
+ * M. Laib, L. Telesca, M. Kanevski, Long-range fluctuations and multifractality in connectivity density time series of a wind speed monitoring network, Chaos: An Interdisciplinary Journal of Nonlinear Science 28 (3), 033108.
    
  * M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal analysis of the time series of daily means of wind speed in complex regions, Chaos, Solitons & Fractals, 109 (2018) pp. 118-127.
 
