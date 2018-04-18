@@ -24,9 +24,9 @@ GPL-3
 #### Note
 This R code was developed and used for the following papers:
   
- * M. Laib, L. Telesca, M. Kanevski, Long-range fluctuations and multifractality in connectivity density time series of a wind speed monitoring network, Chaos: An Interdisciplinary Journal of Nonlinear Science 28 (3), 033108.
+ * M. Laib, L. Telesca, M. Kanevski, Long-range fluctuations and multifractality in connectivity density time series of a wind speed monitoring network, Chaos: An Interdisciplinary Journal of Nonlinear Science 28 (3), 033108. [Paper](https://www.researchgate.net/publication/319121707_Long-range_fluctuations_and_multifractality_in_connectivity_density_time_series_of_a_wind_speed_monitoring_network)
    
- * M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal analysis of the time series of daily means of wind speed in complex regions, Chaos, Solitons & Fractals, 109 (2018) pp. 118-127.
+ * M. Laib, J. Golay, L. Telesca, M. Kanevski, Multifractal analysis of the time series of daily means of wind speed in complex regions, Chaos, Solitons & Fractals, 109 (2018) pp. 118-127. [Paper](https://www.researchgate.net/publication/320223480_Multifractal_analysis_of_the_time_series_of_daily_means_of_wind_speed_in_complex_regions)
 
 ### MFDFA package installation: from github 
 ```{r}
