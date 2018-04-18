@@ -1,5 +1,7 @@
-# MFDFA: MultiFractal Detrended Fluctuation Analysis for Time Series
+## MFDFA: MultiFractal Detrended Fluctuation Analysis for Time Series
 Applies the MultiFractal Detrended Fluctuation Analysis (MFDFA) to time series. The package contains some suggestion plot of the MFDFA results.
+
+The MFDFA R library is now available on CRAN. Further update will be added soon.
 
 #### Version 
 1.0
@@ -8,9 +10,12 @@ Applies the MultiFractal Detrended Fluctuation Analysis (MFDFA) to time series. 
 Mohamed Laib, Luciano Telesca and Mikhail Kanevski
 
 #### Maintainer
-Mohamed Laib <Mohamed.Laib@unil.ch>
+Mohamed Laib [mohamed.laib (at) unil.ch] or 
+             [laib.med (at) gmail.com]
 
 #### URL
+https://cran.r-project.org/package=MFDFA
+
 https://mlaib.github.io
 
 #### License
