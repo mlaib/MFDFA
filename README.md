@@ -65,6 +65,7 @@ axis(2)
 ```
 
 #### Little comparison
+```{r}
 a<-0.9
 N<-10000
 tsx<-MFsim(N,a)
@@ -77,3 +78,4 @@ system.time(mfdfa<-MFDFA(tsx, scale, m, q))
   
 system.time(mfdfa<-MFDFA2(tsx, scale, m, q))
   ~ 12s
+```
