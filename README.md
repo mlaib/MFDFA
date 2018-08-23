@@ -3,7 +3,14 @@ Applies the MultiFractal Detrended Fluctuation Analysis (MFDFA) to time series. 
 
 The MFDFA R library is now available on CRAN. Further update will be added soon.
 
-A new file is available [Here](https://gist.github.com/mlaib/bb0c09df9593dad16ae270334ec3e7d7). It proposes the MFDFA with a parallel version (MFDFA2.R). Useful for long time series. It can be used as the first one with same parameters. It uses (N-1) of workers of your computer. ENJOY ...
+A new file is available [Here](https://gist.github.com/mlaib/bb0c09df9593dad16ae270334ec3e7d7). It proposes the MFDFA with a parallel version (MFDFA2.R). Useful for long time series. It can be used as the first one with same parameters. It uses (N-1) of workers of your computer. 
+
+Use the following to get it: 
+```{r}
+devtools::source_gist("bb0c09df9593dad16ae270334ec3e7d7", filename = "MFDFA2.r")
+```
+
+ENJOY ...
 
 #### Version 
 1.0
@@ -66,6 +73,7 @@ axis(2)
 
 #### Little comparison
 ```{r}
+library(MFDFA)
 a<-0.9
 N<-10000
 tsx<-MFsim(N,a)
@@ -76,6 +84,7 @@ m<-1
 system.time(mfdfa<-MFDFA(tsx, scale, m, q))
   ~ 47.60 s
   
+devtools::source_gist("bb0c09df9593dad16ae270334ec3e7d7", filename = "MFDFA2.r")
 system.time(mfdfa<-MFDFA2(tsx, scale, m, q))
   ~ 12s
 ```
