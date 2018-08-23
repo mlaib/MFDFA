@@ -63,3 +63,17 @@ grid(col="midnightblue")
 axis(1)
 axis(2)
 ```
+
+#### Little comparison
+a<-0.9
+N<-10000
+tsx<-MFsim(N,a)
+
+scale=10:1000
+q<--10:10
+m<-1
+system.time(mfdfa<-MFDFA(tsx, scale, m, q))
+  ~ 47.60 s
+  
+system.time(mfdfa<-MFDFA2(tsx, scale, m, q))
+  ~ 12s
