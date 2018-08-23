@@ -28,7 +28,7 @@ Mohamed Laib [mohamed.laib (at) unil.ch] or
 GPL-3
 
 #### Note
-This R code was developed and used for the following papers:
+If the codes are used in scientific publications please cite the following:
   
  * M. Laib, L. Telesca, M. Kanevski, Long-range fluctuations and multifractality in connectivity density time series of a wind speed monitoring network, Chaos: An Interdisciplinary Journal of Nonlinear Science 28 (3), 033108. [Paper](https://www.researchgate.net/publication/319121707_Long-range_fluctuations_and_multifractality_in_connectivity_density_time_series_of_a_wind_speed_monitoring_network)
    
