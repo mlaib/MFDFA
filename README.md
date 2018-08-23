@@ -16,7 +16,11 @@ Mohamed Laib [mohamed.laib (at) unil.ch] or
 #### URL
 [https://cran.r-project.org/package=MFDFA](https://cran.r-project.org/package=MFDFA)
 
+[https://mlaib.github.io/MFDFA/](https://mlaib.github.io/MFDFA/)
+
 [https://mlaib.github.io](https://mlaib.github.io)
+
+
 
 #### License
 GPL-3
