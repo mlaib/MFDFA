@@ -82,9 +82,9 @@ scale=10:1000
 q<--10:10
 m<-1
 system.time(mfdfa<-MFDFA(tsx, scale, m, q))
-  ~ 47.60 s
+#  ~ 47.60 s
   
 devtools::source_gist("bb0c09df9593dad16ae270334ec3e7d7", filename = "MFDFA2.r")
 system.time(mfdfa<-MFDFA2(tsx, scale, m, q))
-  ~ 12s
+#  ~ 12s
 ```
