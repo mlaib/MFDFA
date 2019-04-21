@@ -34,6 +34,8 @@ Mohamed Laib [mohamed.laib (at) unil.ch] or
 #### License
 GPL-3
 
+[![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/grand-total/MFDFA)](http://cran.rstudio.com/package=MFDFA)
+
 #### Note
 If the codes are used in scientific publications please cite the following:
   
