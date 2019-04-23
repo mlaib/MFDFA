@@ -13,7 +13,7 @@ devtools::source_gist("bb0c09df9593dad16ae270334ec3e7d7", filename = "MFDFA2.r")
 ENJOY ...
 
 #### Version 
-1.0
+1.1
 
 #### Authors 
 Mohamed Laib, Luciano Telesca and Mikhail Kanevski
