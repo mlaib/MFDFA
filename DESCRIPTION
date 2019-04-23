@@ -1,0 +1,25 @@
+Package: MFDFA
+Type: Package
+Title: MultiFractal Detrended Fluctuation Analysis
+Version: 1.1
+Authors@R: c(
+  person("Mohamed","Laib", role=c("aut","cre"), email="laib.med@gmail.com"),
+  person("Luciano","Telesca", role=c("aut"), email="Luciano.Telesca@imaa.cnr.it"),
+  person("Mikhail","Kanevski", role=c("aut"), email="Mikhail.Kanevski@unil.ch"))
+Author: Mohamed Laib [aut, cre], 
+  Luciano Telesca [aut], 
+  Mikhail Kanevski [aut]
+Maintainer: Mohamed Laib <laib.med@gmail.com>
+Description: Contains the MultiFractal Detrended Fluctuation Analysis (MFDFA), 
+  MultiFractal Detrended Cross-Correlation Analysis (MFXDFA), and the Multiscale
+  Multifractal Analysis (MMA). The MFDFA() function proposed in this package was 
+  used in Laib et al. (<doi:10.1016/j.chaos.2018.02.024> and <doi:10.1063/1.5022737>). 
+  See references for more information. Interested users can find a parallel version of
+  the MFDFA() function on GitHub.
+License: GPL-3
+Imports: numbers
+URL: https://mlaib.github.io
+Note: The originale code was in matlab, see details below.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

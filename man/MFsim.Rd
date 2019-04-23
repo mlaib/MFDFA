@@ -9,34 +9,49 @@ MFsim(N,a)
 \arguments{
 \item{N}{The length of the generated multifractal series.}
 
-\item{a}{The Hurst exponent, which takes values in [0.5, 1].}
+\item{a}{Exponent that takes values in [0.6, 1].}
 }
 \value{
-A vector containing the multifractal series
+A vector containing the multifractal series.
 }
 \description{
 Generates series using the binomial multifractal model (see references).
 }
 \examples{
 
-\dontrun{
-
 a<-0.9
 N<-1024
 tsx<-MFsim(N,a)
-
 scale=10:100
 q<--10:10
 m<-1
 b<-MFDFA(tsx, scale, m, q)
+
 dev.new()
 par(mai=rep(1, 4))
-plot(q, b$Hq, col=1, axes= F, ylab=expression('h'[q]), pch=16, cex.lab=1.8,
+plot(q, b$Hq, col=1, axes= FALSE, ylab=expression('h'[q]), pch=16, cex.lab=1.8,
      cex.axis=1.8, main="q-order Hurst exponent", ylim=c(min(b$Hq),max(b$Hq)))
 grid(col="midnightblue")
 axis(1)
 axis(2)
+
+\dontrun{
+## Example with Levy distribution ####
+require(rmutil)
+tsx <- rlevy(1000, 0, 1)
+scale=10:100
+q<--10:10
+m<-1
+b<-MFDFA(tsx, scale, m, q)
+
+dev.new()
+plot(q, b$Hq, col=1, axes= F, ylab=expression('h'[q]), pch=16, cex.lab=1.8,
+    cex.axis=1.8, main="Hurst exponent", ylim=c(min(b$Hq),max(b$Hq)))
+grid(col="midnightblue")
+axis(1, cex=4)
+axis(2, cex=4)
 }
+
 }
 \references{
 J. Feder, Fractals, Plenum Press, New York, NY, USA, 1988.
