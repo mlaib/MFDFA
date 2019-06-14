@@ -12,6 +12,8 @@ devtools::source_gist("bb0c09df9593dad16ae270334ec3e7d7", filename = "MFDFA2.r")
 
 ENJOY ...
 
+![alt text](https://github.com/mlaib/mlaib.github.io/blob/master/FunTseries.png)
+
 #### Version 
 1.1
 
